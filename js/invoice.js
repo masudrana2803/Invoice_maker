@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const buyerAddress = buyerAddressTextarea.value.trim();
         const companyName = "My company"; // Replace with your company name
         const companyAddress = "Uttara,Dhaka-1230, Phone:+8801680118532"; // Replace with your company address
-        const companyLogo = "/logo.jpg"; // Replace with your logo URL (300px width)
+        const companyLogo = "../images/logo.jpg"; // Replace with your logo URL (300px width)
 
         if (!buyerName || !buyerAddress || items.length === 0) {
             alert('Please enter buyer name and address, and add at least one item before printing.');
