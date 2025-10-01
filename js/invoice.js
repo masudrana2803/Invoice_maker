@@ -114,8 +114,8 @@ document.addEventListener('DOMContentLoaded', () => {
     printInvoiceButton.addEventListener('click', () => {
         const buyerName = buyerNameInput.value.trim();
         const buyerAddress = buyerAddressTextarea.value.trim();
-        const companyName = "SF Jacquard Solution"; // Replace with your company name
-        const companyAddress = "Shop#8, Ambia Soroni Market <br> Boardbazar, Gazipur <br> Phone:01839-158932;01934-510458"; // Replace with your company address
+        const companyName = "My company"; // Replace with your company name
+        const companyAddress = "Uttara,Dhaka-1230, Phone:+8801680118532"; // Replace with your company address
         const companyLogo = "/logo.jpg"; // Replace with your logo URL (300px width)
 
         if (!buyerName || !buyerAddress || items.length === 0) {
